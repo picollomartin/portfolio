@@ -10,13 +10,13 @@ export default function Portfolio() {
       <div className="max-w-3xl mx-auto px-6 py-8">
         {/* Profile section */}
         <div className="flex flex-col items-center">
-          <div className="w-64 h-64 rounded-full overflow-hidden mb-6 shadow-lg mx-auto">
+        <div className="w-64 h-64 rounded-full overflow-hidden mb-6 shadow-lg mx-auto relative">
             <Image
               src="/profile-image.jpeg"
               alt="Profile picture of Martin Picollo with Spider-Man statue in the background"
               width={800}
-              height={600}
-              className="object-cover w-full h-full scale-125 object-center"
+              height={800}
+              className="object-cover absolute inset-0 w-full h-full"
               priority
             />
           </div>
